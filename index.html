@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam Houston Class of 2016 Reunion</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-
     <style>
-        /* Basic Body Styles */
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Verdana', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
             color: #343a40;
         }
 
-        /* Header Styles */
         header {
             background: linear-gradient(to right, #bf0a30, #002868);
             color: white;
@@ -35,7 +30,6 @@
             margin: 0.5rem 0 0;
         }
 
-        /* Navigation Styles */
         nav {
             background-color: #002868;
             color: white;
@@ -57,12 +51,10 @@
             color: #ffcc00;
         }
 
-        /* Hero Section Styles */
         .hero {
             position: relative;
             text-align: center;
             padding: 4rem 1rem;
-            background-color: #f0f4f7; /* Light background to break up the white space */
         }
 
         .hero h2 {
@@ -70,56 +62,31 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Playfair Display', serif;
-            font-size: 4rem;
-            font-weight: 700;
+            font-size: 3rem;
             color: white;
-            text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7);
-            background-color: rgba(0, 40, 104, 0.6);
-            padding: 1.5rem 2.5rem;
-            border-radius: 15px;
-            letter-spacing: 2px;
-            animation: fadeIn 1.5s ease-out;
+            font-weight: bold;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
         }
 
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-                transform: translate(-50%, -50%) scale(0.8);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translate(-50%, -50%) scale(1);
-            }
-        }
-
-        /* Image in Hero */
         .hero img {
-            width: 100%;
+            width: 80%; /* Adjust this percentage to make the image smaller */
+            max-width: 100%; /* Ensures the image doesn't stretch beyond its natural size */
             height: auto;
-            max-height: 450px; /* Limit the image height */
-            object-fit: cover; /* Makes sure the image fills the space appropriately */
             border-radius: 10px;
-            margin-top: 2rem;
         }
 
-        /* Container Styles */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 2rem 1rem;
-            background-color: #f9fafb; /* Light background between sections */
         }
 
-        /* Grid Section Styles */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
         }
 
-        /* Card Styles */
         .card {
             background: white;
             border: 1px solid #ddd;
@@ -161,7 +128,6 @@
             background-color: #002868;
         }
 
-        /* Footer Styles */
         footer {
             background-color: #002868;
             color: white;
@@ -179,15 +145,14 @@
         footer a:hover {
             text-decoration: underline;
         }
-
-        /* Reconnect Section Styles */
+        
         #reconnect {
             text-align: center;
-            padding: 6rem 1rem;
-            background: linear-gradient(135deg, #bf0a30 30%, #002868 100%);
+            padding: 6rem 1rem; /* Increased padding for more space */
+            background: linear-gradient(135deg, #bf0a30 30%, #002868 100%); /* Gradient background */
             position: relative;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
             margin-top: 2rem;
         }
 
@@ -197,12 +162,12 @@
             color: white;
             text-transform: uppercase;
             letter-spacing: 2px;
-            margin: 1;
+            margin: 0;
             position: relative;
             z-index: 1;
             animation: slideDown 1.5s ease-out;
-            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-            margin-top: -2rem;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Soft shadow to make the text stand out */
+       
         }
 
         @keyframes slideDown {
@@ -210,30 +175,33 @@
                 opacity: 0;
                 transform: translateY(-100px);
             }
-
             100% {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
+        
+
+        
+        
+        
     </style>
 </head>
-
 <body>
-
-    <!-- Header Section -->
     <header>
-        <h1>Sam Houston Class of 2016</h1>
-        <h1>10-year Reunion</h1>
+        <h1>Sam Houston Class of 2016 </h1>
+            <h1>10-year Reunion</h1>
     </header>
 
-    <!-- Hero Section -->
+    <nav>
+        
+    </nav>
+
     <div class="hero">
         <h2>Let the planning begin!</h2>
         <img src="samhouston.jpg" alt="Sam Houston High School">
     </div>
 
-    <!-- Container with Grid Cards -->
     <div class="container">
         <section id="reconnect">
             <h2>Get Started Here</h2>
@@ -265,13 +233,12 @@
                 </div>
             </div>
         </section>
+
     </div>
 
-    <!-- Footer Section -->
     <footer>
         <p>Thank you for being part of the Class of 2016! Don't forget to register for the reunion and fill out the survey to share your thoughts. Your input is crucial in making this reunion unforgettable!</p>
         <p><a href="https://forms.gle/zKiqUT5SQmLV8PqA6" target="_blank">Register Now</a> | <a href="https://j0vzfpckm9c.typeform.com/to/oR1ITnOM?utm_source=xxxxx" target="_blank">Take the Survey</a></p>
     </footer>
 </body>
-
 </html>
