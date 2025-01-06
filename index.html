@@ -179,7 +179,57 @@
                 transform: translateY(0);
             }
         }
-        
+
+
+
+/* navigation buttons */
+    .top-buttons {
+        text-align: center;
+        background: linear-gradient(135deg, #002868 30%, #bf0a30 100%);
+        padding: 2rem 1rem;
+        border-radius: 10px;
+        margin: 2rem auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .top-buttons .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .top-buttons .card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 150px;
+    }
+
+    .top-buttons .card h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #002868;
+    }
+
+    .top-buttons .card a {
+        display: inline-block;
+        background-color: #bf0a30;
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .top-buttons .card a:hover {
+        background-color: #002868;
+    }
 
         
         
@@ -191,6 +241,32 @@
         <h1>Sam Houston Class of 2016 </h1>
             <h1>10-year Reunion</h1>
     </header>
+
+    
+    <div class="top-buttons">
+        <div class="grid">
+            <div class="card">
+                <h3>Throwback Video</h3>
+                <a href="https://youtu.be/0iLpadsHotQ?si=NhiZnWp2RKfZ2l9a" target="_blank">Watch Video</a>
+            </div>
+            <div class="card">
+                <h3>Pre-Register</h3>
+                <a href="https://forms.gle/zKiqUT5SQmLV8PqA6">Register Now</a>
+            </div>
+            <div class="card">
+                <h3>We Need Your Input</h3>
+                <a href="https://j0vzfpckm9c.typeform.com/to/oR1ITnOM?utm_source=xxxxx" target="_blank">Share Input</a>
+            </div>
+            <div class="card">
+                <h3>Upload Photos</h3>
+                <a href="https://forms.gle/yDDv3sUJvzgvL8n4A" target="_blank">Upload Photos</a>
+            </div>
+            <div class="card">
+                <h3>Business Interest Form</h3>
+                <a href="https://forms.gle/TX35hQd4gFd6dMt88" target="_blank">Business Interest Form</a>
+            </div>
+        </div>
+    </div>
 
     <nav>
         
